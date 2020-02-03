@@ -2,7 +2,7 @@ from elasticsearch_dsl import connections, Search
 
 from memory_profiler import profile
 
-connections.create_connection()
+connections.create_connection(hosts=["http://localhost:9200"])
 
 @profile
 def my_func():
