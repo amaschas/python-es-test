@@ -1,0 +1,3 @@
+elasticsearch_dsl==7.1.0
+elasticsearch==7.5.1
+memory_profiler==0.57.0
