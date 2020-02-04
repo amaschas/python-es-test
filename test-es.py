@@ -24,5 +24,5 @@ def my_func():
         r = s.execute()
     return r
 
-for x in range(3):
+for x in range(1000):
     my_func()
